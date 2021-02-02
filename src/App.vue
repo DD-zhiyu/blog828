@@ -33,7 +33,7 @@
           </div>
           <div class="mx-2 my-auto">
             <a class="text-sm text-gray-500">
-              <router-link :to="{ name: 'game' }">Game</router-link></a
+              <router-link :to="{ name: 'game' }">游戏</router-link></a
             >
           </div>
           <div class="mx-2 my-auto">
