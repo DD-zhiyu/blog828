@@ -5,7 +5,7 @@
       <ol class="list-decimal ml-12">
   <li>优化首页间距百分比,适配大屏幕</li>
   <li>调整图片大小</li>
-  <li>增加底部</li>
+  <li>增加底部样式</li>
   <li>减小图片大小</li>
 </ol>
     </div>
