@@ -1,10 +1,11 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Home from '../views/Home.vue';
-import day from '../views/day.vue';
-import about from '../views/about.vue';
-import doc from '../views/doc.vue';
-import game from '../views/game.vue';
+
+const Home = () => import('../views/Home.vue');
+const day = () => import('../views/day.vue');
+const about = () => import('../views/about.vue');
+const doc = () => import('../views/doc.vue');
+const game = () => import('../views/game.vue');
 
 Vue.use(VueRouter);
 
