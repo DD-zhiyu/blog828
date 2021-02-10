@@ -21,28 +21,28 @@
         </div>
 
         <div class="h-full flex flex-row">
-          <div class="mx-2 my-auto">
-            <a class="text-sm text-gray-500">
+          <div class="mx-4 my-auto">
+            <a class="text-base  text-gray-500">
               <router-link :to="{ name: 'Home' }">首页</router-link></a
             >
           </div>
-          <div class="mx-2 my-auto">
-            <a class="text-sm text-gray-500">
+          <div class="mx-4 my-auto">
+            <a class="text-base  text-gray-500">
               <router-link :to="{ name: 'doc' }">文档</router-link>
             </a>
           </div>
-          <div class="mx-2 my-auto">
-            <a class="text-sm text-gray-500">
+          <div class="mx-4 my-auto">
+            <a class="text-base text-gray-500">
               <router-link :to="{ name: 'game' }">游戏</router-link></a
             >
           </div>
-          <div class="mx-2 my-auto">
-            <a class="text-sm text-gray-500">
+          <div class="mx-4 my-auto">
+            <a class="text-base  text-gray-500">
               <router-link :to="{ name: 'about' }">关于</router-link></a
             >
           </div>
-          <div class="mx-2 my-auto">
-            <a class="text-sm text-gray-500">
+          <div class="mx-4 my-auto">
+            <a class="text-base text-gray-500">
               <router-link :to="{ name: 'day' }">日志</router-link></a
             >
           </div>
