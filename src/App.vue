@@ -22,12 +22,12 @@
 
         <div class="h-full flex flex-row">
           <div class="mx-4 my-auto">
-            <a class="text-base  text-gray-500">
+            <a class="text-base text-gray-500">
               <router-link :to="{ name: 'Home' }">首页</router-link></a
             >
           </div>
           <div class="mx-4 my-auto">
-            <a class="text-base  text-gray-500">
+            <a class="text-base text-gray-500">
               <router-link :to="{ name: 'doc' }">文档</router-link>
             </a>
           </div>
@@ -37,7 +37,7 @@
             >
           </div>
           <div class="mx-4 my-auto">
-            <a class="text-base  text-gray-500">
+            <a class="text-base text-gray-500">
               <router-link :to="{ name: 'about' }">关于</router-link></a
             >
           </div>
@@ -58,11 +58,8 @@
         <router-view />
       </keep-alive>
     </div>
-    <div
-      class="w-2/3 mx-auto mx-1/3 h-16 mt-8 mb-12 p-2 bg-white rounded-lg text-gray-800 text-center"
-    >
-      <!-- 底部 -->
-      <p class="text-base font-medium">Copyright © 2021</p>
+    <div class="w-full h-24  mt-12">
+
     </div>
   </div>
 </template>
