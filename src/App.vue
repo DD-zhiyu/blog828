@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-    <div id="nav" class="mx-1/5 mx-auto">
+    <div id="nav" class="mx-1/6 mx-auto">
       <!-- 头部 -->
       <div
-        class="w-4/6 mx-auto mx-2/6 lg:h-20 p-4 lg:mt-8 bg-white lg:rounded-lg head flex flex-row"
+        class="w-5/6 mx-auto mx-1/6 lg:h-20 p-4 lg:mt-8 bg-white lg:rounded-lg head flex flex-row"
       >
         <div class="h-full flex flex-row">
           <div class="h-full w-12 rounded-full overflow-hidden">
@@ -53,7 +53,7 @@
       </div>
     </div>
     <!-- 主体 -->
-    <div class="w-2/3 mx-auto mx-1/3">
+    <div class="w-5/6 mx-auto mx-1/6">
       <keep-alive>
         <router-view />
       </keep-alive>

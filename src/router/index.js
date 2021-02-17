@@ -14,6 +14,9 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home,
+    meta: {
+      keepAlive: true,
+    },
   },
   {
     path: '/day',
